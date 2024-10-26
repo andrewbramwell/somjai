@@ -1,0 +1,366 @@
+---
+title: 'Massage'
+description: 'Discover authentic Thai massage in Wakefield at Jairak Thai Massage. Experience traditional techniques and modern therapies for relaxation, pain relief, and overall wellness.'
+preloadImg: '/assets/images/hero/hero.webp'
+permalink: '/'
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/local.css" />
+    <link rel="stylesheet" href="/assets/css/critical.css" />
+
+    <!-- Script for Netlify Identity -->
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script defer>
+        if (window.netlifyIdentity) {
+            window
+                .netlifyIdentity
+                .on('init', (user) => {
+                    if (!user) {
+                        window
+                            .netlifyIdentity
+                            .on('login', () => {
+                                document.location.href = '/admin/';
+                            });
+                    }
+                });
+        }
+    </script>
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1059">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">Revitalising Massage Experiences in Wakefield</h1>
+            <p class="cs-text">
+                Discover a world of relaxation and healing at Jairak Massage in the heart of Wakefield. We offer a diverse range of massage techniques, blending traditional Thai methods with contemporary therapeutic approaches to enhance your overall well-being.
+            </p>
+            <a href="{{client.onlineBooking}}" target="_blank" rel="noopener" class="cs-button-solid">Schedule an Appointment</a>
+        </div>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="/assets/images/hero/hero-m.webp">
+        <source media="(min-width: 601px)" srcset="/assets/images/hero/hero.webp">
+        <img decoding="async" src="h/assets/images/hero/hero.jpg" alt="woman getting massage" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                Why Choose Us                 -->
+<!-- ============================================ -->
+
+<section id="why-choose-1630">
+    <div class="cs-container">
+        <div class="cs-flex">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/side/herbal-m.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/side/herbal.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/side/herbal.jpg" alt="herbal compress" width="608" height="400">
+            </picture>
+            <div class="cs-content">
+                <span class="cs-topper">Why Choose Us</span>
+                <h2 class="cs-title">Discover the Jairak Thai Massage Difference</h2>
+                <p class="cs-text">
+                    Experience the perfect blend of authentic Thai healing traditions and modern massage techniques at Jairak Thai Massage. Our unique approach combines time-honoured Thai practices with personalised care, offering you a truly rejuvenating experience in the heart of Wakefield. Whether you're seeking relaxation, pain relief, or overall wellness, our expert touch ensures a memorable experience.
+                </p>
+            </div>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    <picture class="cs-wrapper">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/woman.svg" alt="icon" width="24" height="24">
+                    </picture>
+                    Tailored Treatments
+                </h3>
+                <p class="cs-item-text">
+                    Each session is customised to address your specific needs and preferences, ensuring a bespoke experience that targets your individual concerns and goals.
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    <picture class="cs-wrapper">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/temple.svg" alt="icon" width="24" height="24">
+                    </picture>
+                    Thai Authenticity
+                </h3>
+                <p class="cs-item-text">
+                    Our owner brings the true essence of traditional Thai massage to Wakefield, offering you a genuine experience rooted in centuries-old healing practices.
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    <picture class="cs-wrapper">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/graduation.svg" alt="icon" width="24" height="24">
+                    </picture>
+                    Professional Excellence
+                </h3>
+                <p class="cs-item-text">
+                    With UK-recognised qualifications in various massage therapies, Jairak guarantees treatments that adhere to the highest standards of professionalism and safety.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-867">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/side/oil-m.webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/side/oil.webp">
+            <img loading="lazy" decoding="async" src="/assets/images/side/oil.jpg" alt="thai oil massage" width="630" height="775">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Featured Service</span>
+            <h2 class="cs-title">Thai Hot Oil Massage</h2>
+            <p class="cs-text">
+                Immerse yourself in the ultimate wellness experience with Jairak's Thai Hot Oil Massage in Wakefield. This signature treatment combines ancient Thai techniques with the comfort of warm, aromatic oils. Our therapist expertly blends gentle stretches, rhythmic compressions, and flowing strokes to release tension and promote deep relaxation.
+            </p>
+            <p class="cs-text">
+                Feel the warmth of the oils penetrate your muscles, melting away stress and fatigue. This treatment not only soothes aching muscles but also improves circulation, enhances flexibility, and restores your body's natural balance.
+            </p>
+            <a href="/thai-oil/" class="cs-button-solid" aria-label="all massages">Thai Oil Massage</a>                                
+        </div>
+    </div>
+</section>
+                                
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-879">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Popular</span>
+            <h2 class="cs-title">Explore Jairak Thai Massage Services</h2>
+            <p class="cs-text">
+                Discover our popular massage therapies, each designed to provide unique benefits. From Aromatherapy to Thai Hot Oil Massage we offer treatments to suit your individual needs and preferences.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="/massages/" class="cs-link">
+                    <h3 class="cs-h3">Thai Hot Oil Massage</h3>
+                    <p class="cs-item-p">
+                        Relaxing technique combining traditional Thai stretches with warm oil to soothe muscles, improve flexibility, and promote deep relaxation.
+                    </p>
+                    <!--Backgorund Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="assets/images/services/oil.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="assets/images/services/oil.webp">
+                        <img loading="lazy" decoding="async" src="assets/images/services/oil.jpg" alt="thai oil massage" width="1280" height="568">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="/massages/" class="cs-link">
+                    <h3 class="cs-h3">Aromatherapy Massage</h3>
+                    <p class="cs-item-p">
+                        Gentle massage using essential oils to enhance mood, reduce stress, and promote overall well-being through therapeutic scents.
+                    </p>
+                    <!--Backgorund Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="/assets/images/services/aromatherapy-m.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="/assets/images/services/aromatherapy-m.webp">
+                        <img loading="lazy" decoding="async" src="/assets/images/services/aromatherapy.jpg" alt="aromatherapy massage" width="1280" height="568">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="/massages/" class="cs-link">
+                    <h3 class="cs-h3">Deep Tissue Thai Massage</h3>
+                    <p class="cs-item-p">
+                        Intense therapy targeting deep muscle layers, combining Thai techniques with focused pressure to relieve chronic tension and pain.
+                    </p>
+                    <!--Backgorund Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="/assets/images/services/deep-tissue-m.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="/assets/images/services/deep-tissue.webp">
+                        <img loading="lazy" decoding="async" src="/assets/images/services/deep-tissue.jpg" alt="deep tissue massage" width="1280" height="568">
+                    </picture>
+                </a>
+            </li>
+        </ul>
+        <a href="/massages/" class="cs-button-solid">All Massages</a>
+    </div>
+</section>   
+                                
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="sbs-r-870">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/side/deep-tissue-m.webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/side/deep-tissue.webp">
+            <img loading="lazy" decoding="async" src="/assets/images/side/deep-tissue.jpg" alt="deep tissue massage" width="630" height="775">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Featured Service</span>
+            <h2 class="cs-title">Deep Tissue Thai Massage</h2>
+            <p class="cs-text">
+                Experience the transformative power of Jairak's Deep Tissue Thai Massage in Wakefield. This treatment combines traditional Thai techniques with deep tissue methods, offering a unique approach to addressing chronic pain and tension. Our skilled therapist uses pressure and targeted movements to access the deeper layers of muscle and fascia, effectively releasing stubborn knots and promoting lasting relief.
+            </p>
+            <p class="cs-text">
+                Unlike conventional deep tissue massages, our approach incorporates elements of Thai massage, including gentle stretching and energy line work. This holistic method not only alleviates physical discomfort but also promotes overall balance and well-being. Whether you're dealing with persistent muscle aches, recovering from an injury, or seeking to improve your range of motion, our Deep Tissue Thai Massage offers a powerful solution tailored to your specific needs.
+            </p>
+            <a href="/deep-tissue/" class="cs-button-solid">Deep Tissue Thai Massage</a>
+        </div>
+    </div>
+</section>
+                                
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-1109">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">FAQ’s</span>
+            <h2 class="cs-title">Frequently Asked Questions</h2>
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/side/faq-m.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/side/faq.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/side/faq.jpg" alt="gold lotus flower" width="522" height="400">
+            </picture>
+        </div>
+        <div class="cs-flex-group">
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What are your opening hours?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        We are open 7 days a week from 9.30AM to 7PM.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Do I need to make an appointment, or do you accept walk-ins?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        While we do accept walk-ins subject to availability, we highly recommend making an appointment to ensure your preferred time slot and treatment.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How long are the massage sessions?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        We offer various session lengths - 30, 45, 60, 90, or 120 minutes. Choose based on your needs and schedule.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Do you accept credit cards?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        No, we currently accept cash or bank transfers.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What if I have specific health concerns?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Please inform your therapist of any health concerns, injuries, or medical conditions before your massage. Our therapists can adapt techniques to ensure a safe experience.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-727">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Testimonials</span>
+            <h2 class="cs-title">What Our Clients Say</h2>
+            <p class="cs-text">
+                At Jairak Thai Massage, your experience and satisfaction are our top priorities. We're proud to have helped many clients on their journey to wellness and relaxation. Here's what some of our valued customers have to say about their time with us.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/gold-quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Amazing!</h3>
+                <p class="cs-item-text">
+                    Amazing Thai massage, really relaxing and lovely lady. Made me feel super comfortable. Appointments available 7 days a week and can book online, which is so convenient. Will definitely be back soon. Thank you.
+                </p>
+                <span class="cs-name">Saz K</span>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/gold-quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Lovely Lady!</h3>
+                <p class="cs-item-text">
+                    Such a lovely thai lady! Best thai massage 💆‍♀️ i've ever had & been to Thailand 4 times. Such a good price and very easy to book online.... 🇹🇭 Recommended to everyone!!!!!
+                </p>
+                <span class="cs-name">Joanne Allot</span>
+            </li>
+        </ul>
+        <a href="https://g.page/r/CcAPg8vcm9ErEBM/review" target="_blank" rel="noopener" class="cs-button-solid">Leave A Review</a>
+    </div>
+</section>                 
+
+
+<script>const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
+    for (const item of faqItems) {
+        const onClick = () => {
+        item.classList.toggle('active')
+    }
+    item.addEventListener('click', onClick)
+    }
+</script>                 
+
+    {% include 'components/cta.html' %}
+{% endblock %}
