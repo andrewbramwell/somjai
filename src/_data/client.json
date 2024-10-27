@@ -1,19 +1,19 @@
 {
-    "name": "Jairak Thai Massage",
-    "email": "jairakthaimassage@gmail.com",
-    "phoneForTel": "+447471338784",
-    "phoneFormatted": "07471 338784",
-    "onlineBooking": "https://jairakthaimassage.setmore.com/",
+    "name": "Somjai Thai Massage",
+    "email": "somjai.thaimassageservice@gmail.com",
+    "phoneForTel": "+447901318468",
+    "phoneFormatted": "07901 318468",
+    "onlineBooking": "https://somjaithaimassage.setmore.com/",
     "giftVoucher": "",
     "address": {
-        "lineOne": "Branch Clinic",
-        "lineTwo": "117 Westgate",
-        "city": "Wakefield",
+        "lineOne": "42 High Street",
+        "lineTwo": "Ross-on-Wye",
+        "city": "Herefordshire",
         "state": "",
-        "zip": "WF1 1EW",
-        "mapLink": "https://maps.app.goo.gl/t5fn9bNCp7kosAnT6"
+        "zip": "HR9 5HD",
+        "mapLink": "https://maps.app.goo.gl/zkJFfAffdqoXzRdD9"
     },
-    "domain": "https://jairakthaimassage.co.uk"
+    "domain": "https://somjaithaimassage.co.uk"
 }
 
 

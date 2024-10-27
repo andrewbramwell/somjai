@@ -1,0 +1,87 @@
+---
+title: 'Aromatherapy Massage'
+description: "Discover the healing power of aromatherapy massage in Ross-on-Wye. Custom essential oil blends and gentle techniques promote deep relaxation and wellbeing."
+preloadImg: '/assets/images/banners/banner.webp'
+permalink: 'aromatherapy/'
+eleventyNavigation:
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/internal.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1400">
+    <div class="cs-container">
+        <span class="cs-int-title">Aromatherapy Massage</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/aromatherapy/" class="cs-link cs-active">Aromatherapy Massage</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/banners/banner-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/banners/banner.webp">
+        <img decoding="async" src="/assets/images/banners/banner.jpg" alt="oil back massage" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<section id="content-page-1399">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/side/aromatherapy-m.webp">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/side/aromatherapy.webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/side/aromatherapy.jpg" alt="Aromatherapy Massage" width="542" height="728">
+                </picture>
+            </div>
+        </div>
+        <div class="cs-content">
+            <h1 class="cs-title"><span class="cs-color">Aromatherapy Massage</span> in Ross-on-Wye</h1>
+            <p>Welcome to Somjai Thai Massage in Ross-on-Wye! We invite you to experience the therapeutic benefits of our Aromatherapy Massage, a deeply relaxing treatment that combines gentle massage techniques with carefully selected essential oils to promote physical and emotional wellbeing.</p>
+            <p>During your Aromatherapy Massage session, your treatment begins with a personalised blend of pure essential oils, chosen to address your specific needs. Our skilled therapist then uses light to medium pressure and flowing strokes to help these therapeutic oils absorb into your skin while easing muscle tension and promoting deep relaxation.</p>
+            <p>Aromatherapy Massage is renowned for its ability to affect both body and mind through the power of touch and scent. Whether you're seeking stress relief, improved sleep, emotional balance, or pure relaxation, our Aromatherapy Massage can be customised with the perfect blend of oils to support your wellness goals.</p>
+            <h3>The Benefits of Aromatherapy Massage</h3>
+            <ul>
+                <li>
+                    <strong>Deep Relaxation and Stress Relief:</strong> The combination of gentle massage techniques and calming essential oils helps reduce stress and anxiety, promoting a profound sense of relaxation and emotional balance.
+                </li>
+                <li>
+                    <strong>Improved Sleep Quality:</strong> The therapeutic properties of selected essential oils, coupled with relaxing massage strokes, can help regulate sleep patterns and promote better quality rest.
+                </li>
+                <li>
+                    <strong>Enhanced Mood and Mental Clarity:</strong> Essential oils work through your sense of smell to influence the limbic system, helping to lift mood, reduce anxiety, and improve mental clarity.
+                </li>
+                <li>
+                    <strong>Physical Tension Relief:</strong> The flowing massage techniques help to ease muscle tension and stiffness while the essential oils provide additional therapeutic benefits through their natural properties.
+                </li>
+                <li>
+                    <strong>Skin Nourishment:</strong> The combination of carrier oils and essential oils helps to nourish and hydrate the skin, leaving it feeling soft, supple, and rejuvenated.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="cs-bubbles" aria-hidden="true"></div>
+</section>
+
+{% include 'components/cta.html' %}
+
+{% endblock %}
+                     

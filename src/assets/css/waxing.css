@@ -181,6 +181,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 1em;
   }
   #pricing-995 .cs-picture .cs-floater,
   #pricing-r-995 .cs-picture .cs-floater {

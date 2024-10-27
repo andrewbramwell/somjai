@@ -1,0 +1,87 @@
+---
+title: 'Thai Massage'
+description: "Experience authentic Thai massage in Ross-on-Wye. Traditional techniques combine stretching and pressure points to improve flexibility and reduce tension."
+preloadImg: '/assets/images/banners/banner.webp'
+permalink: 'thai-massage/'
+eleventyNavigation:
+
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/internal.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1400">
+    <div class="cs-container">
+        <span class="cs-int-title">Thai Massage</span>
+        <div class="cs-breadcrumbs">
+            <a href="" class="cs-link">Home</a>
+            <a href="/thai-massage/" class="cs-link cs-active">Thai Massage</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/banners/banner-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/banners/banner.webp">
+        <img decoding="async" src="/assets/images/banners/banner.jpg" alt="oil back massage" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<section id="content-page-1399">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/side/thai-m.webp">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/side/thai-m.webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/side/thai.jpg" alt="thai massage" width="542" height="728">
+                </picture>
+            </div>
+        </div>
+        <div class="cs-content">
+            <h1 class="cs-title"><span class="cs-color">Traditional Thai Massage</span> in Ross-on-Wye</h1>
+            <p>Welcome to Somjai Thai Massage in Ross-on-Wye! We invite you to experience the authentic benefits of Traditional Thai Massage, an ancient healing art that combines acupressure, gentle stretching, and rhythmic compression techniques.</p>
+            <p>During your Thai Massage session, our skilled therapist will guide you through a series of yoga-like stretches while applying precise pressure to energy lines throughout your body. This therapeutic treatment is performed fully clothed on a comfortable mat, allowing for a full range of movement and stretching techniques.</p>
+            <p>Traditional Thai Massage is celebrated for its ability to release blocked energy, improve flexibility, and promote overall wellness. Whether you're seeking relief from muscle tension, better mobility, or deep relaxation, our Thai Massage can be adapted to meet your specific needs and comfort level.</p>
+            <h3>The Benefits of Traditional Thai Massage</h3>
+            <ul>
+                <li>
+                    <strong>Improved Flexibility and Range of Motion:</strong> Experience enhanced mobility through gentle stretching techniques that help release muscle tension and improve joint flexibility, making everyday movements easier and more comfortable.
+                </li>
+                <li>
+                    <strong>Stress Relief and Mental Clarity:</strong> The rhythmic pressure and stretching movements help calm the nervous system, reduce stress levels, and promote mental relaxation, leading to improved mood and clearer thinking.
+                </li>
+                <li>
+                    <strong>Energy Flow and Balance:</strong> Traditional Thai Massage works along the body's energy lines to release blockages, boost circulation, and restore natural energy flow, leaving you feeling both energised and deeply relaxed.
+                </li>
+                <li>
+                    <strong>Muscle Tension and Pain Relief:</strong> Through targeted pressure point techniques and stretching, Thai Massage effectively addresses areas of chronic tension, particularly beneficial for those suffering from back pain, shoulder stiffness, and headaches.
+                </li>
+                <li>
+                    <strong>Posture and Body Awareness:</strong> Regular Thai Massage sessions can help improve posture and body awareness, contributing to better alignment and reduced muscle strain in daily activities.
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</section>
+
+{% include 'components/cta.html' %}
+
+{% endblock %}

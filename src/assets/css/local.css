@@ -49,6 +49,7 @@
     position: relative;
     width: 100%;
     max-width: 39.375rem;
+    border-radius: 1em;
     /* chnages to auto at tablet */
     height: 50vw;
     /* removed at tablet */
@@ -102,6 +103,7 @@
     width: 3rem;
     height: 3rem;
     border: 1px solid var(--primaryLight);
+    border-radius: 0.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,6 +226,7 @@
   #sbs-867 .cs-picture {
     display: block;
     position: relative;
+    border-radius: 1.5em;
     width: 100%;
     max-width: 39.375rem;
     /* 400px - 775px */
@@ -336,6 +339,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    border-radius: 1em;
     justify-content: flex-end;
     gap: 0.75rem;
     position: relative;
@@ -503,6 +507,7 @@
   #sbs-r-870 .cs-picture {
     display: block;
     position: relative;
+    border-radius: 1.5em;
     width: 100%;
     max-width: 39.375rem;
     /* 400px - 775px */
@@ -603,6 +608,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 1em;
   }
   #faq-1109 .cs-faq-group {
     width: 100%;
@@ -618,6 +624,7 @@
   #faq-1109 .cs-faq-item {
     list-style: none;
     width: 100%;
+    border-radius: 0.5rem;
     background-color: #F7F7F7;
     /* clips all corners of the button that overlap the rounded border */
     overflow: hidden;
@@ -647,6 +654,7 @@
     line-height: 1.2em;
     text-align: left;
     font-weight: bold;
+    font-family: Marcellus;
     /* 20px - 24px */
     padding: clamp(1.25rem, 2vw, 1.5rem);
     background-color: #F7F7F7;
@@ -820,6 +828,7 @@
     padding: clamp(2rem, 7vw, 3rem) clamp(1rem, 4vw, 2rem);
     /* makes padding not affect height and width */
     box-sizing: border-box;
+    border-radius: 1em;
     background-color: #fff;
     display: flex;
     flex-direction: column;
